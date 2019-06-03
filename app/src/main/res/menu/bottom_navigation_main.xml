@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_accont"
+        android:enabled="true"
+        android:icon="@drawable/ic_account"
+        android:title="My accounts"
+        />
+    <item
+        android:id="@+id/stats"
+        android:enabled="true"
+        android:icon="@drawable/analytics"
+        android:title="stats"
+        />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/calendar"
+        android:enabled="true"
+        android:title="Calendar"/>
+
+
+
+</menu>

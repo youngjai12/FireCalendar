@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    -<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" android:orientation="horizontal"
+    android:layout_alignParentTop="true" android:id="@+id/layout_input">
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/enroll_habit"
+        android:text="습관을 선택해주세요"
+        android:background="#50ff0000"
+        android:layout_weight="5"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:orientation="vertical" android:layout_marginTop="80dp"
+    android:layout_gravity="center_horizontal">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:layout_height="wrap_content" android:layout_width="300dp"
+        android:id="@+id/calendarView"
+        />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/caltextview"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="7pt"/>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+
+    <Button android:layout_height="30dp" android:layout_width="30dp" android:id="@+id/zerobtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/error"/>
+
+    <Button android:layout_height="30dp" android:layout_width="30dp" android:id="@+id/midbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/minus"/>
+
+    <Button android:layout_height="30dp" android:layout_width="30dp" android:id="@+id/fullbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/success"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

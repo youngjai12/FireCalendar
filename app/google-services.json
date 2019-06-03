@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "236299806794",
+    "firebase_url": "https://firefinalcalander.firebaseio.com",
+    "project_id": "firefinalcalander",
+    "storage_bucket": "firefinalcalander.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236299806794:android:294f917a5af2cf59",
+        "android_client_info": {
+          "package_name": "com.example.kwonyoung_jae.firefinalcalander"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236299806794-85g2rff7mklqiafhu0hbk3eci3tirqo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kwonyoung_jae.firefinalcalander",
+            "certificate_hash": "3ed6641caaaa7867a3ea7f089aa51b79a19108ef"
+          }
+        },
+        {
+          "client_id": "236299806794-6kmovss782fm3minfkvn797t04dm5otm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfkfXZvNFrG3Kso8AAc3tmmopuoLZkHnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236299806794-6kmovss782fm3minfkvn797t04dm5otm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

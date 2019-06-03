@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="habit_name">Enter your habit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_date">Pick Start Date</string>
+    <string name="end_date">Pick End Date</string>
+    <string name="habit_color">Select Your Habit Color</string>
+    <string name="new_habit_title">New Habit</string>
+    <string name="edit_habit_title">Edit Habit</string>
+    <string name="msg_no_habit">No Habit Found!</string>
+</resources>
